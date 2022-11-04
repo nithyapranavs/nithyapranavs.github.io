@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: boarder-box;
+}
+
+.container{
+    with: 100%;
+    height: 100vh;
+    background-image: url(image/code.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+
+}
+
+.profile{
+    background: #fff;
+    text-align: center;
+    padding: 60px 100px;
+    color: #000;
+    position: relative;
+    border-radius: 20px;
+    
+}
+
+.dp{
+    width: 150px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 15px;
+}
+
+.social-media img{
+    width: 20px;
+    margin: 30px 5px;
+    cursor: pointer;
+}
