@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <nav class="sidebar" id="sidebar">
+    <div class="logo">
+      <i class="fas fa-code"></i>
+      <span>My Portfolio</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#" data-section="home" class="nav-link active">
+        <i class="fas fa-home"></i>
+        <span>Home</span>
+      </a></li>
+      <li><a href="#" data-section="about" class="nav-link">
+        <i class="fas fa-user"></i>
+        <span>About</span>
+      </a></li>
+      <li><a href="#" data-section="projects" class="nav-link">
+        <i class="fas fa-project-diagram"></i>
+        <span>Projects</span>
+      </a></li>
+      <li><a href="#" data-section="resume" class="nav-link">
+        <i class="fas fa-file-alt"></i>
+        <span>Resume</span>
+      </a></li>
+      <li><a href="#" data-section="contact" class="nav-link">
+        <i class="fas fa-envelope"></i>
+        <span>Contact</span>
+      </a></li>
+    </ul>
+  </nav>
+  
+  <main class="main-content">
+    <section id="home" class="section active">
+      <div class="home-content">
+        <div class="hero-section">
+          <div class="hero-text">
+            <div class="greeting">Hello, I'm</div>
+            <h1 class="hero-title">Nithya Pranav</h1>
+            <div class="typing-text">
+              <span class="static-text">I'm a </span>
+              <span class="dynamic-text" id="typing-text"></span>
+            </div>
+            <p class="hero-description">Hi, I'm Nithya Pranav — a software developer who loves building clean, efficient, and user-focused solutions. Welcome to my portfolio!</p>
+            
+            <div class="social-section">
+              <div class="social-intro">Connect with me</div>
+              <div class="social-links">
+                <a href="https://github.com/nithyapranavs" class="social-link" title="GitHub" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-github"></i>
+                  <span class="social-label">GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/nithya-pranav/" class="social-link" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-linkedin"></i>
+                  <span class="social-label">LinkedIn</span>
+                </a>
+                <a href="https://www.instagram.com/nithya_pranav/" class="social-link" title="Instagram" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-instagram"></i>
+                  <span class="social-label">Instagram</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="hero-visual">
+            <div class="profile-container">
+              <img src="your-photo.png" alt="Your Photo" class="profile-photo">
+              <div class="profile-glow"></div>
+              <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="about" class="section">
+      <h1>About Me</h1>
+      <div class="about-content">
+        <div class="about-text">
+          <p>I'm a software developer with a strong interest in automation, ethical hacking, and full-stack development. I enjoy turning complex problems into simple, scalable solutions and continuously exploring new technologies. Outside of coding, you’ll find me experimenting with side projects or diving into the latest in tech and cybersecurity.
+</p>
+          <div class="skills">
+            <h3>Skills</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">C++</span>
+              <span class="skill-tag">C</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">Linux</span>
+              <span class="skill-tag">Vim</span>
+              <span class="skill-tag">AWS</span>
+              <span class="skill-tag">Arduino</span>
+              <span class="skill-tag">Django</span>
+              <span class="skill-tag">React</span>
+            </div>
+          </div>
+        </div>
+        <img src="your-photo.png" alt="Your Photo" class="about-photo">
+      </div>
+    </section>
+    
+    <section id="projects" class="section">
+      <h1>Projects</h1>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-wifi"></i>
+          </div>
+          <div class="project-content">
+            <h3>WiFi IPS</h3>
+            <p>Intrusion prevention for WiFi: detects and blocks unauthorized access, with automated network assessment tools.</p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>Django</span>
+              <span>Scapy</span>
+              <span>Raspberry Pi</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/nithyapranavs/WiFi-IPS" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-calendar-alt"></i>
+          </div>
+          <div class="project-content">
+            <h3>Class Scheduler</h3>
+            <p>Automates class scheduling with Google Calendar API, reducing manual work and improving efficiency.</p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>Google Calendar API</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/nithyapranavs/calab" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-list-check"></i>
+          </div>
+          <div class="project-content">
+            <h3>Django Todo App</h3>
+            <p>Task management app with user authentication and persistent storage using SQLite3.</p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>Django</span>
+              <span>SQLite3</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/nithyapranavs/django-todo-app" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="resume" class="section">
+      <h1>Resume</h1>
+      <div class="resume-content">
+        <div class="resume-section">
+          <h3><i class="fas fa-briefcase"></i> Experience</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-date">Sept 2024</div>
+              <div class="timeline-content">
+                <h4>Cloud and IoT Intern</h4>
+                <p>JRM Technologies, Coimbatore</p>
+                <p>Developed an IoT-based Air Quality Index system using Arduino, Raspberry Pi, and AWS cloud services.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="resume-section">
+          <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-date">2021 – 2025</div>
+              <div class="timeline-content">
+                <h4>B.Tech in Computer Science and Engineering (Cyber Security)</h4>
+                <p>Amrita Vishwa Vidyapeetham, Coimbatore</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact" class="section">
+      <h1>Contact</h1>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p>nithyapranav.off@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="social-contact-section">
+          <h3>Connect With Me</h3>
+          <div class="social-contact-links">
+            <a href="https://github.com/nithyapranavs" class="social-contact-link" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="https://linkedin.com/in/nithya-pranav" class="social-contact-link" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://www.instagram.com/nithya_pranav/" class="social-contact-link" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-instagram"></i>
+              <span>Instagram</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html> 
+ 
